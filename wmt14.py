@@ -1,3 +1,6 @@
+#encoding='utf-8'
+import numpy as np
+huamn_data=np.loadtxt("sim_score.csv",delimiter=",")
 
 def eval_by_kendall(human,scores)
     concordant=0
