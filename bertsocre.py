@@ -10,7 +10,8 @@ def load_data(path):
             lines.append(l)
     return lines
 
-data = ["mr","yelp","snli","alldata"]
+#data = ["mr","yelp","snli","alldata"]
+data=["alldata"]
 scores={'bertp':[],'bertr':[],'bertf':[]}
 metrics=['bertp','bertr','bertf']
 for each in data:

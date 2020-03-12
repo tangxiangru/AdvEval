@@ -11,7 +11,8 @@ def load_data(path):
     return lines
 
 
-data = ["mr","yelp","snli","alldata"]
+#data = ["mr","yelp","snli","alldata"]
+data=["alldata"]
 scores={'Bleu_1':[],'Bleu_2':[],'Bleu_3':[],'Bleu_4':[],'METEOR':[],'ROUGE_L':[],'CIDEr':[],'SkipThoughtCS':[],'EmbeddingAverageCosineSimilarity':[],'EmbeddingAverageCosineSimilairty':[],'VectorExtremaCosineSimilarity':[],'GreedyMatchingScore':[]}
 metrics=['Bleu_1','Bleu_2','Bleu_3','Bleu_4','METEOR','ROUGE_L','CIDEr','EmbeddingAverageCosineSimilarity','EmbeddingAverageCosineSimilairty','VectorExtremaCosineSimilarity','GreedyMatchingScore']
 for each in data:
